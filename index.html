@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -27,28 +30,40 @@
 
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item"><a href="#">Студія</a></li>
-          <li class="navigation-item"><a href="#">Портфоліо</a></li>
-          <li class="navigation-item"><a href="#">Контакти</a></li>
+          <li class="navigation-item">
+            <a class="link navigation-link active-link" href="#">Студія</a>
+          </li>
+          <li class="navigation-item">
+            <a class="link navigation-link" href="./portfolio.html"
+              >Портфоліо</a
+            >
+          </li>
+          <li class="navigation-item">
+            <a class="link navigation-link" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
 
       <ul class="header-list">
         <li class="header-item">
-          <a class="header-mailto" href="mailto:info@devstudio.com"
+          <a class="link header-mailphone" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li class="header-item">
-          <a class="header-tel" href="tel:380961111111">+38 096 111 11 11</a>
+          <a class="link header-mailphone" href="tel:380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
     <main>
       <!-- Section hero -->
       <section class="hero">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button">Замовити послугу</button>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="button button-mode-durk" type="button">
+          Замовити послугу
+        </button>
       </section>
 
       <!-- Section Cards -->
@@ -178,16 +193,20 @@
           href="./index.html"
           aria-label="Головна сторінка WebStudio"
         >
-          Web<span class="half-logo">Studio</span>
+          Web<span class="half-logo-footer">Studio</span>
         </a>
-        <address>
+        <address class="address">
           м. Київ, пр-т Лесі Українки, 26
           <ul class="footer-list">
-            <li class="footer-item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="link footer-item">
+              <a class="link footer-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="footer-item">
-              <a href="tel:380961111111">+38 096 111 11 11</a>
+            <li class="link footer-item">
+              <a class="link footer-link" href="tel:380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
