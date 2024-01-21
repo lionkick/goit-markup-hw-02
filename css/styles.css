@@ -50,7 +50,8 @@ body {
 }
 
 .button-mode-light:hover,
-.button-mode-light:focus {
+.button-mode-light:focus,
+.button-active {
   color: var(--second-color);
   background-color: var(--activ-bg-color);
 }
