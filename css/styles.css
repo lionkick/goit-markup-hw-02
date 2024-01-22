@@ -207,6 +207,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.48px;
 }
+.portfolio-buttons-item {
+  background-color: var(--second-bg-color);
+}
 
 /*
 ==================================
