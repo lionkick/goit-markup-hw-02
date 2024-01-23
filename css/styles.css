@@ -174,7 +174,13 @@ body {
 -= Our team section =-
 ==================================
 */
+.our-team {
+  background-color: var(--second-bg-color);
+}
 
+.our-team-item {
+  background-color: var(--header-bg-color);
+}
 .our-team-item-name {
   color: var(--name-color);
   text-align: center;
